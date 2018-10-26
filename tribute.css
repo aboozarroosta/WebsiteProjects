@@ -20,6 +20,22 @@
     text-decoration: none;
     font-size: 18px;
 }
+#antoine-fig{
+    background-color: antiquewhite;
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: center;
+    
+}
 #antoine-pic{
-    border-radius: .5%;
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+    margin: auto;
+    padding-top: 3px;
+}
+figcaption{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
