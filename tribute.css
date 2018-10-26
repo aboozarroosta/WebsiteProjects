@@ -16,6 +16,10 @@
 #subtitle{
     margin-top: 0px;
     padding-top: 0px;
+    padding-bottom: 10px;
     text-decoration: none;
     font-size: 18px;
+}
+#antoine-pic{
+    border-radius: .5%;
 }
