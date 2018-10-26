@@ -2,7 +2,6 @@
     background-color: lightgray;
     text-align: center;
     font-family: Helvetica, sans-serif;
-    opacity: .75;
     padding: 30px 30px 1px 30px;
     margin: 25px 10px 25px 10px;
 }
@@ -11,6 +10,7 @@
     font-size: 25;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    opacity: 0.75;
 }
 
 #subtitle{
