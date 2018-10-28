@@ -26,3 +26,9 @@
     background-color: antiquewhite;
     display: inline-block;
 }
+#tribute-info{
+    margin: auto;
+
+    width: 50vw;
+    text-align: justify;
+}
