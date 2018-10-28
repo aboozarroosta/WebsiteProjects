@@ -22,6 +22,7 @@
 }
 
 #antoine-fig{
-    padding: 3px;
-    background-color: aqua;
+    padding: 5px;
+    background-color: antiquewhite;
+    display: inline-block;
 }
