@@ -1,7 +1,18 @@
 body{
     background-color: aqua;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
 }
 header{
     font-family: Helvetica, sans-serif;
     text-align: center;
+}
+main{
+    border-radius: 5px;
+    background-color: antiquewhite;
+    max-width: 80%;
+    margin: auto;
+}
+#description{
+    padding-top: 20px;
 }
