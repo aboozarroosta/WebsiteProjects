@@ -16,3 +16,23 @@ main{
 #description{
     padding-top: 20px;
 }
+.row{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-gap: 10px;
+}
+.leftcol{
+    float: left;
+    text-align: right;
+    padding-bottom: 20px;
+}
+.rightcol{
+    float: right;
+    text-align: left;
+    padding-bottom: 20px;
+}
+#survey-form{
+}
+#submit{
+    margin-bottom: 15px;
+}

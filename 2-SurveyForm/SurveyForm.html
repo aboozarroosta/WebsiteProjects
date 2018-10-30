@@ -14,9 +14,101 @@
     </header>
     <main>
         <p id="description">Let us know how we can improve freeCodeCamp</p>
-        <form id="survey-form">
-
-        </form>
+            <div id="right">
+                <form id="survey-form">
+                    <div class="row">
+                        <div class="leftcol">
+                            * Name:
+                        </div>
+                        <div class="rightcol">
+                            <input type="text" name="name" placeholder="Enter your name here">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="leftcol">
+                            * Email:
+                        </div>
+                        <div class="rightcol">
+                            <input type="email" name="email" placeholder="Enter your email here">
+                        </div>
+                    </div>       
+                    <div class="row">
+                        <div class="leftcol">
+                            * Age:
+                        </div>
+                        <div class="rightcol">
+                            <input type="number" name="age" placeholder="Enter your age here" min="18">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="leftcol">
+                            Which option best describes your current role?
+                        </div>
+                        <div class="rightcol">
+                            <select name="roles">
+                                <option value="" disabled>Select an option</option>
+                                <option value="student">Student</option>
+                                <option value="full-timeJob">Full-time Job</option>
+                                <option value="full-timeLearner">Full-time Learner</option>
+                                <option value="preferNot">Prefer not to say</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>                                  
+                    <div class="row">
+                        <div class="leftcol">
+                                * How likely is that you would recommend freeCodeCamp to a friend?
+                        </div>
+                        <div class="rightcol">
+                            <input type="radio" name="definitely" value="definitely"> Definitely<br/>
+                            <input type="radio" name="maybe" value="maybe"> Maybe<br/>
+                            <input type="radio" name="notSure" value="notSure"> Not Sure<br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="leftcol">
+                            What do you like most in FCC:
+                        </div>
+                        <div class="rightcol">
+                            <select name="likings">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="challenges">Challenges</option>
+                                <option value="projects">Projects</option>
+                                <option value="community">Community</option>
+                                <option value="opensource">Open Source</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="leftcol">
+                                Things that should be improved in the future<br/>
+                                (Check all that apply):
+                        </div>
+                        <div class="rightcol">
+                            <input type="checkbox" name="improve" value="frontend"> Front-end Projects<br/>
+                            <input type="checkbox" name="improve" value="backend"> Back-end Projects<br/>
+                            <input type="checkbox" name="improve" value="dataVisualization"> Data Visulization<br/>
+                            <input type="checkbox" name="improve" value="challenges"> Challenges<br/>
+                            <input type="checkbox" name="improve" value="openSourceCommunity"> Open Source Community<br/>
+                            <input type="checkbox" name="improve" value="gitterHelpRooms"> Gitter help rooms<br/>
+                            <input type="checkbox" name="improve" value="videos"> Videos<br/>
+                            <input type="checkbox" name="improve" value="cityMeetups"> City Meetups<br/>
+                            <input type="checkbox" name="improve" value="wiki"> Wiki<br/>
+                            <input type="checkbox" name="improve" value="forum"> Forum<br/>
+                            <input type="checkbox" name="improve" value="additionalCourses"> Additional Courses<br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="leftcol">
+                            Any Comments or Suggestions?
+                        </div>
+                        <div class="rightcol">
+                            <textarea name="commets" placeholder="Enter your comment here..."></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="submit" id="submit">                    
+                </form>
+            </div>
     </main>
 </body>
 </html>
