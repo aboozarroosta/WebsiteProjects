@@ -12,32 +12,32 @@
     <header>
         <h1 id="title">Survey Form</h1>
     </header>
-    <main>
+    <main id="main">
         <p id="description">Let us know how we can improve freeCodeCamp</p>
             <div id="right">
                 <form id="survey-form">
                     <div class="row">
                         <div class="leftcol">
-                            * Name:
+                            <label for="name" id="name-label">* Name:</label>
                         </div>
                         <div class="rightcol">
-                            <input type="text" name="name" placeholder="Enter your name here">
+                            <input type="text" id="name" name="name" placeholder="Enter your name here">
                         </div>
                     </div>
                     <div class="row">
                         <div class="leftcol">
-                            * Email:
+                            <label for="email" id="email-label">* Email:</label>
                         </div>
                         <div class="rightcol">
-                            <input type="email" name="email" placeholder="Enter your email here">
+                            <input type="email" id="email" name="email" placeholder="Enter your email here">
                         </div>
                     </div>       
                     <div class="row">
                         <div class="leftcol">
-                            * Age:
+                            <label for="number" id="number-label">* Age:</label>
                         </div>
                         <div class="rightcol">
-                            <input type="number" name="age" placeholder="Enter your age here" min="18">
+                            <input type="number" id="number" name="number" placeholder="Enter your age here" min="18" max="140">
                         </div>
                     </div>
                     <div class="row">
@@ -45,7 +45,7 @@
                             Which option best describes your current role?
                         </div>
                         <div class="rightcol">
-                            <select name="roles">
+                            <select name="roles" id="dropdown">
                                 <option value="" disabled>Select an option</option>
                                 <option value="student">Student</option>
                                 <option value="full-timeJob">Full-time Job</option>
@@ -60,9 +60,9 @@
                                 * How likely is that you would recommend freeCodeCamp to a friend?
                         </div>
                         <div class="rightcol">
-                            <input type="radio" name="definitely" value="definitely"> Definitely<br/>
-                            <input type="radio" name="maybe" value="maybe"> Maybe<br/>
-                            <input type="radio" name="notSure" value="notSure"> Not Sure<br/>
+                            <input type="radio" name="recommend" value="definitely"> Definitely<br/>
+                            <input type="radio" name="recommend" value="maybe"> Maybe<br/>
+                            <input type="radio" name="recommend" value="notSure"> Not Sure<br/>
                         </div>
                     </div>
                     <div class="row">
