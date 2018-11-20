@@ -32,3 +32,9 @@ a{
     text-decoration: none;
     margin: 50px;
 }
+
+main{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
