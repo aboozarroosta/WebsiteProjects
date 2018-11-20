@@ -8,6 +8,9 @@ body{
     top: 0;
     width: 100%;
     padding-top: 20px;
+    opacity: 1;
+    z-index: 1000;
+    background-color: antiquewhite;
 }
 #header-img{
     width: 100px;
@@ -55,4 +58,24 @@ input{
     color: black;
     font-weight: bold;
     height: 30px;
+}
+.row{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-gap: 20px;
+}
+.leftcol{
+    float: left;
+    text-align: right;
+    padding-bottom: 20px;
+}
+.rightcol{
+    float: right;
+    text-align: left;
+    padding-bottom: 20px;
+}
+#features{
+    width: 80%;
+    margin: auto;
 }
