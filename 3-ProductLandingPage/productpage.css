@@ -2,13 +2,33 @@ body{
     background-color: antiquewhite;
     font-family: Helvetica, sans-serif;
 }
+
 #header-img{
-    width: 100;
+    width: 100px;
     height: auto;
-    display: inline-block;
+    display: inline;
     float: left;
     margin-right: 10px;
 }
 h2{
+    display: inline;
     padding-right: 5px;
+}
+ul{
+    display: inline;
+    float: right;
+}
+
+#nav-bar{
+    float: right;
+}
+#nav-link{
+    list-style-type: none;
+    float: right;
+    margin: 30px;
+}
+
+a{
+    text-decoration: none;
+    margin: 50px;
 }
