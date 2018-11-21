@@ -63,7 +63,7 @@ input{
     margin-top: 100px;
     display: grid;
     grid-template-columns: 15% 85%;
-    grid-gap: 20px;
+    grid-gap: 50px;
 }
 .leftcol{
     float: left;
@@ -78,4 +78,11 @@ input{
 #features{
     width: 80%;
     margin: auto;
+}
+
+#e580Video{
+    margin-top: 50px;
+}
+#video{
+    border-style: solid;
 }
