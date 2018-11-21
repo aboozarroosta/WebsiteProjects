@@ -58,6 +58,8 @@ input{
     color: black;
     font-weight: bold;
     height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .row{
     margin-top: 100px;
@@ -85,4 +87,25 @@ input{
 }
 #video{
     border-style: solid;
+}
+#pricing-container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.pricingBox{
+    border-style: solid;
+    border-width: 2px;
+    width: 33.33% ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pricingSpan{
+    display: block;
+    width: 100%;
+    background-color:gray;
 }
