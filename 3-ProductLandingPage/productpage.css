@@ -62,7 +62,7 @@ input{
 .row{
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 8% 92%;
     grid-gap: 50px;
 }
 .leftcol{
@@ -85,6 +85,9 @@ input{
 }
 #video{
     border-style: solid;
+}
+.img-features{
+    width: 100%;
 }
 
 #pricing-container{
