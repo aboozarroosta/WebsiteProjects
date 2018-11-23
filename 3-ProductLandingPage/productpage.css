@@ -88,6 +88,7 @@ input{
 #video{
     border-style: solid;
 }
+
 #pricing-container{
     display: flex;
     flex-wrap: nowrap;
@@ -103,6 +104,17 @@ input{
     width: 33.33% ;
     margin-left: 10px;
     margin-right: 10px;
+}
+@media only screen and (max-width: 1000px){
+    #pricing-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pricingBox{
+        width: 300px;
+        align-self: center;
+        margin-top: 20px;
+    }
 }
 .pricingSpan{
     display: block;
