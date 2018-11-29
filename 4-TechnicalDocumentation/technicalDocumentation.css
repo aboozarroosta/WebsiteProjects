@@ -3,7 +3,7 @@
     float: left;
     widows: 40px;
     height: 100%;
-    width: 160px;
+    width: 250px;
     top: 0;
     left: 0;
     z-index: 1;
@@ -13,5 +13,14 @@
     overflow-x: hidden;
 }
 main{
-    margin-left: 160px;
+    margin-left: 250px;
+}
+a{
+    text-decoration: none;
+    line-height: 150%;
+    font-size: 120%;
+    color: black;
+    border-style: solid;
+    display: block;
+    padding: 0 0 0 0;
 }
