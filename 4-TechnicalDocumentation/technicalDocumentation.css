@@ -8,12 +8,15 @@
     left: 0;
     z-index: 1;
     position: fixed;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-top: 20px;
     overflow-x: hidden;
+    border-right: 1px;
+    border-style: solid;
 }
 main{
     margin-left: 250px;
+    padding-left:10px;
 }
 a{
     text-decoration: none;
@@ -21,6 +24,38 @@ a{
     font-size: 120%;
     color: black;
     border-style: solid;
-    display: block;
+    display: inline-block;
     padding: 0 0 0 0;
+    margin: -1px;
+    width: 100%;
+}
+a:hover{
+    background-color: lightgray;
+    color: darkblue;
+}
+code{
+    text-indent: 20px;
+    font-family: monospace;
+}
+@media only screen and (max-width:500px){
+    #navbar{
+        height: 300px;
+        width: 100%;
+        display: inline-block;
+        color: black;
+        margin-left: 0px;
+        padding-left: 0px;
+        z-index: 10000;
+        border-style: none;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        background-color: white;
+    }
+    main{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        margin-left: 0px;
+        z-index: 1;
+    }
 }
