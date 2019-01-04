@@ -66,11 +66,15 @@ tr,td{
 }
 .grid-container{
     display: grid;
-    grid-gap: 20%;
+    grid-gap: 0%;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-items{
+    float: center;
 }
 .work-image{
     display: block;
     margin: auto;
-    width: 100%;
+    width: 90%;
     height: 20%;
 }
