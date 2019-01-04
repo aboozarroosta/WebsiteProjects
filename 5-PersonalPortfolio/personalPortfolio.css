@@ -6,7 +6,7 @@
 header{
     background-color: lightgray;
     width: 100%;
-    height: 100px;
+    height: 50px;
     position: fixed;
     z-index: 1000;
     opacity: 1;
@@ -49,7 +49,7 @@ main{
     text-align: center;
     height: 700px;
 }
-h3{
+h4{
     color: darkblue;
 }
 h2{
@@ -59,14 +59,14 @@ h2{
     table-layout: fixed;
     margin: auto;
     border-collapse: collapse;
-    width: 20%;
+    width: 50%;
 }
 tr,td{
     border: 1px solid black;
 }
 .grid-container{
     display: grid;
-    grid-gap: 0%;
+    grid-gap: 5%;
     grid-template-columns: 1fr 1fr;
 }
 .grid-items{
@@ -76,5 +76,6 @@ tr,td{
     display: block;
     margin: auto;
     width: 90%;
-    height: 20%;
+    height: 40%;
+    margin-bottom: 1px;
 }
